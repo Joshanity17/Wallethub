@@ -1,0 +1,519 @@
+body {
+  margin: unset;
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: "Proxima Nova Bold Italic";
+  src: url("./font/Proxima\ Nova\ Bold\ Italic.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova Light";
+  src: url("./font/Proxima\ Nova\ Light.otf\ Italic.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova Regular Italic";
+  src: url("./font/Proxima\ Nova\ Regular\ Italic.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova Semibold Italic";
+  src: url("./font/Proxima\ Nova\ Semibold\ Italic.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova Semibold";
+  src: url("./font/Proxima\ Nova\ Semibold.otf");
+}
+
+@font-face {
+  font-family: "ProximaNova-Black";
+  src: url("./font/ProximaNova-Black.otf");
+}
+@font-face {
+  font-family: "ProximaNova-BlackIt";
+  src: url("./font/ProximaNova-BlackIt.otf");
+}
+@font-face {
+  font-family: "ProximaNova-Bold";
+  src: url("./font/ProximaNova-Bold.otf");
+}
+@font-face {
+  font-family: "ProximaNova-ExtrabldIt";
+  src: url("./font/ProximaNova-ExtrabldIt.otf");
+}
+@font-face {
+  font-family: "ProximaNova-Extrabold";
+  src: url("./font/ProximaNova-Extrabold.otf");
+}
+@font-face {
+  font-family: "ProximaNova-LightItalic";
+  src: url("./font/ProximaNova-LightItalic.otf");
+}
+@font-face {
+  font-family: "ProximaNova-Reg";
+  src: url("./font/ProximaNova-Reg.otf");
+}
+@font-face {
+  font-family: "ProximaNova-Thin";
+  src: url("./font/ProximaNova-Thin.otf");
+}
+
+@font-face {
+  font-family: "ProximaNova-ThinIt";
+  src: url("./font/ProximaNova-ThinIt.otf");
+}
+
+#primary {
+  background-color: rgb(32, 20, 56);
+  height: 90%;
+  width: 100%;
+  padding-top: 80px;
+}
+
+#secondary {
+  background-color: rgb(242, 245, 248);
+  height: 80%;
+  width: 100%;
+}
+
+#navigationMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background-color: white;
+  height: 60px;
+  width: 100%;
+}
+
+#mobileBackgroundDesignSection {
+  display: none;
+}
+
+#navigationMenu > .navigationItem {
+  background-color: #f1f1f1;
+  flex: 1;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 4px;
+  display: flex;
+  justify-content: center;
+}
+
+#navigationMenu > .navigationItem > p {
+  font-family: "ProximaNova-Bold";
+  font-size: 2vh;
+}
+
+#navigationMenu > .navigationItem.middle {
+  border-left: solid;
+  border-right: solid;
+  border-color: rgb(232, 235, 236);
+  border-width: 1px;
+}
+
+#primary > #mainContent > #doTheRightThingSection {
+  display: flex;
+  position: absolute;
+  width: 100%;
+}
+
+#primary > #mainContent > #doTheRightThingSection > p {
+  font-family: "ProximaNova-Extrabold";
+  font-size: 102px;
+  color: white;
+}
+
+#primary > #mainContent > #doTheRightThingSection > .emptySpace {
+  flex-grow: 1;
+}
+
+#primary > #mainContent > #doTheRightThingSection > #mainText {
+  flex-grow: 3;
+}
+
+#primary > #mainContent > #idCardSection {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#primary > #mainContent > #idCardSection > img#mobileView {
+  display: none;
+}
+
+#backgroundDesignSection {
+  position: absolute;
+  width: 100%;
+}
+
+#backgroundDesignSection > #dotSection {
+  display: flex;
+}
+
+#backgroundDesignSection > #dotSection > div {
+  flex: 1;
+  width: 100%;
+}
+
+#backgroundDesignSection > #dotSection > div > .dot {
+  border-radius: 50%;
+  position: absolute;
+  height: 18px;
+  width: 18px;
+}
+
+#backgroundDesignSection > #dotSection > div > #first.dot {
+  background-color: rgb(21, 126, 244);
+  left: 70px;
+  top: 500px;
+}
+
+#backgroundDesignSection > #dotSection > div > #second.dot {
+  background-color: rgb(21, 126, 244);
+  left: 270px;
+  top: 330px;
+}
+
+#backgroundDesignSection > #dotSection > div > #third.dot {
+  background-color: rgb(255, 255, 254);
+  left: 280px;
+  top: 560px;
+}
+
+#backgroundDesignSection > #dotSection > div > #fourth.dot {
+  background-color: rgb(21, 126, 244);
+  left: 925px;
+  top: 540px;
+  height: 15px !important;
+  width: 15px !important;
+}
+
+#backgroundDesignSection > #dotSection > div > #fifth.dot {
+  background-color: rgb(255, 255, 254);
+  left: 970px;
+  top: 360px;
+}
+
+#backgroundDesignSection > #dotSection > div > #sixth.dot {
+  background-color: rgb(255, 255, 254);
+  left: 1060px;
+  top: 160px;
+}
+
+#backgroundDesignSection > #dotSection > div > #seventh.dot {
+  background-color: rgb(21, 126, 244);
+  left: 1310px;
+  top: 470px;
+}
+
+#backgroundDesignSection > #vectorSection > #largeVector {
+  position: absolute;
+}
+
+#secondary > #subTitle {
+  display: flex;
+  margin: 0 3%;
+}
+
+#secondary > #subTitle > p {
+  font-family: "ProximaNova-Bold";
+  font-size: 3.8vw;
+  color: rgb(42, 42, 42);
+}
+
+#secondary > #secondaryContent {
+  display: flex;
+  margin: 0 3%;
+  background-color: white;
+}
+
+#secondary > #secondaryContent > #cardContent {
+  margin: 20px 50px;
+  width: 100%;
+}
+
+#secondary > #secondaryContent > #cardContent > #header {
+  display: flex;
+}
+
+#secondary > #secondaryContent > #cardContent > #header > #creditCardTitle {
+  font-family: "ProximaNova-Reg";
+  font-size: 17px;
+  color: rgb(42, 42, 42);
+  flex-grow: 1;
+  width: 100%;
+}
+
+#secondary > #secondaryContent > #cardContent > #header > #review {
+  flex-grow: 1;
+  width: 100%;
+}
+
+#secondary > #secondaryContent > #cardContent > #header > #review > .rate {
+  float: right;
+}
+
+#secondary > #secondaryContent > #cardContent > #header > #review > p {
+  font-family: "ProximaNova-Reg";
+  font-size: 15px;
+  color: rgb(42, 42, 42);
+  float: right;
+}
+
+#secondary > #secondaryContent > #cardContent > #header > #review > .rate {
+  height: 26px;
+  padding: 0 10px;
+  margin: 7px 0px;
+}
+#secondary > #secondaryContent > #cardContent > #header > #review > .rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+#secondary > #secondaryContent > #cardContent > #header > #review > .rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 20px;
+  color: #ccc;
+}
+#secondary > #secondaryContent > #cardContent > #header > #review > .rate:not(:checked) > label:before {
+  content: "★ ";
+}
+#secondary > #secondaryContent > #cardContent > #header > #review > .rate > input:checked ~ label {
+  color: #ffc700;
+}
+#secondary > #secondaryContent > #cardContent > #header > #review > .rate:not(:checked) > label:hover,
+#secondary > #secondaryContent > #cardContent > #header > #review > .rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+#secondary > #secondaryContent > #cardContent > #header > #review > .rate > input:checked + label:hover,
+#secondary > #secondaryContent > #cardContent > #header > #review > .rate > input:checked + label:hover ~ label,
+#secondary > #secondaryContent > #cardContent > #header > #review > .rate > input:checked ~ label:hover,
+#secondary > #secondaryContent > #cardContent > #header > #review > .rate > input:checked ~ label:hover ~ label,
+#secondary > #secondaryContent > #cardContent > #header > #review > .rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+#secondary > #secondaryContent > #cardContent > #cardDetails {
+  display: flex;
+}
+
+#secondary > #secondaryContent > #cardContent > #cardDetails > #mainDetails {
+  display: flex;
+}
+
+#secondary > #secondaryContent > #cardContent > #cardDetails > #mainDetails > #cardImage {
+  flex-grow: 1;
+}
+
+#secondary > #secondaryContent > #cardContent > #cardDetails > #mainDetails > #cardApprovalRate {
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+
+#secondary > #secondaryContent > #cardContent > #cardDetails > #mainDetails > #cardApprovalRate > p {
+  font-family: "ProximaNova-Reg";
+  font-size: 15px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+#secondary > #secondaryContent > #cardContent > #cardDetails > #mainDetails > #cardApprovalRate > button {
+  background-color: rgb(77, 209, 198);
+  height: 20px;
+  font-family: "Proxima Nova Semibold";
+  font-size: 15px;
+  color: white;
+  height: 35px;
+  width: 100%;
+  border-radius: 50px;
+}
+
+#secondary > #secondaryContent > #cardContent > #cardDetails > #cardDescription {
+  flex-grow: 10;
+}
+
+#secondary > #secondaryContent > #cardContent > #cardDetails > #cardDescription > ul > li {
+  font-size: 18px;
+  font-family: "ProximaNova-Reg";
+  margin-bottom: 20px;
+}
+
+#secondary > #secondaryContent > #cardContent > #applyButton > button {
+  background-color: rgb(245, 87, 48);
+  color: white;
+  font-family: "Proxima Nova Semibold";
+  font-size: 15px;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#secondary > #secondaryContent > #cardContent > #divider {
+  display: block;
+  margin: 0;
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+
+#secondary > #secondaryContent > #cardContent > #detailsAndFares {
+  font-size: 18px;
+  font-family: "ProximaNova-Reg";
+  color: rgb(18, 106, 202);
+}
+
+@media only screen and (min-width: 600px) and (max-width: 721px) {
+  #primary {
+    height: 700px;
+    width: 720px;
+  }
+
+  #navigationMenu > .navigationItem > .navigation {
+    display: none;
+  }
+
+  #navigationMenu > .navigationItem > p {
+    font-size: 18px;
+  }
+
+  #backgroundDesignSection {
+    display: none !important;
+  }
+
+  #mobileBackgroundDesignSection {
+    display: block;
+    position: absolute;
+    width: 100%;
+  }
+
+  #mobileBackgroundDesignSection > #dotSection {
+    width: 100%;
+  }
+
+  #mobileBackgroundDesignSection > #dotSection > .dot {
+    border-radius: 50%;
+    position: absolute;
+    height: 18px;
+    width: 18px;
+  }
+
+  #mobileBackgroundDesignSection > #dotSection > #first.dot {
+    background-color: rgb(21, 126, 244);
+    left: 60px;
+    top: 320px;
+  }
+
+  #mobileBackgroundDesignSection > #dotSection > #second.dot {
+    background-color: white;
+    left: 80px;
+    top: 520px;
+  }
+
+  #mobileBackgroundDesignSection > #dotSection > #third.dot {
+    background-color: rgb(21, 126, 244);
+    left: 330px;
+    top: 350px;
+  }
+
+  #mobileBackgroundDesignSection > #dotSection > #fourth.dot {
+    background-color: rgb(21, 126, 244);
+    left: 330px;
+    top: 550px;
+  }
+
+  #mobileBackgroundDesignSection > #dotSection > #fifth.dot {
+    background-color: rgb(21, 126, 244);
+    left: 590px;
+    top: 380px;
+  }
+
+  #mobileBackgroundDesignSection > #dotSection > #sixth.dot {
+    background-color: white;
+    left: 590px;
+    top: 580px;
+  }
+
+  #primary > #mainContent > #doTheRightThingSection > #mainText {
+    margin-left: 60px;
+    margin-right: 120px;
+  }
+
+  #primary > #mainContent > #idCardSection > img#browserView {
+    display: none;
+  }
+
+  #primary > #mainContent > #idCardSection > img#mobileView {
+    display: block;
+    margin-top: 210px;
+  }
+
+  #secondary > #subTitle > p {
+    font-size: 40px;
+  }
+
+  #secondary > #secondaryContent {
+    margin: unset;
+  }
+
+  #secondary > #secondaryContent > #cardContent {
+    margin: 20px 20px;
+    width: 100%;
+  }
+
+  #secondary > #secondaryContent > #cardContent > #header > #creditCardTitle {
+    font-size: 35px;
+  }
+
+  #secondary > #secondaryContent > #cardContent > #header > #review {
+    display: none;
+  }
+
+  #secondary > #secondaryContent > #cardContent > #cardDetails {
+    flex-direction: column;
+  }
+
+  #secondary > #secondaryContent > #cardContent > #cardDetails > #mainDetails > #cardImage {
+    flex-grow: 1;
+  }
+
+  #secondary > #secondaryContent > #cardContent > #cardDetails > #mainDetails > #cardImage > img {
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  #secondary > #secondaryContent > #cardContent > #cardDetails > #mainDetails > #cardApprovalRate {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 50px;
+  }
+
+  #secondary > #secondaryContent > #cardContent > #cardDetails > #mainDetails > #cardApprovalRate > p {
+    font-size: 20px;
+  }
+
+  #secondary > #secondaryContent > #cardContent > #cardDetails > #mainDetails > #cardApprovalRate > button {
+    font-size: 20px;
+    width: 140px;
+  }
+
+  #secondary > #secondaryContent > #cardContent > #applyButton {
+    margin-bottom: 10px;
+  }
+
+  #secondary > #secondaryContent > #cardContent > #applyButton > button {
+    width: 100%;
+    font-size: 20px;
+  }
+}
